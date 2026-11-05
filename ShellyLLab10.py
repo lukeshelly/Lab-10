@@ -1,33 +1,11 @@
 
 # Luke Shelly
-# CSEC 1437 - Python Programming II
+# CSEC 1437 
 # Lab 10
 # Date: 11/04/2026
 # Program: ShellyLLab10.py
 
-# CRITICAL THINKING STEPS
-# 1. Make a dictionary with website names and links.
-# 2. Make two lists with website choices.
-# 3. Randomly choose one website from each list.
-# 4. Download each website using requests.
-# 5. Save each webpage to a temporary HTML file.
-# 6. Read the HTML file and make everything lowercase.
-# 7. Find characters that are not letters.
-# 8. Use those characters to separate the words.
-# 9. Remove duplicate words and sort the words.
-# 10. Ask the user for up to 10 search words.
-# 11. Count how many times each word appears.
-# 12. Save the results in a JSON file.
-# 13. Read the JSON file and print the results.
 
-# ANALYTICAL THINKING STEPS
-# First, the program organizes the websites.
-# Next, it downloads and saves each webpage.
-# Then, it reads the webpage and cleans the text.
-# It separates words using non-letter characters.
-# After that, it removes duplicate words and sorts them.
-# Finally, it counts the user's search words and saves
-# all the information in a JSON file.
 
 import requests
 import random
